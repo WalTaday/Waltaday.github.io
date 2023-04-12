@@ -1,0 +1,59 @@
+h1{
+    font-family: 'Teko', sans-serif;
+    color: rgb(255, 123, 0);
+    text-align: center;
+    background-color: azure;
+    text-shadow: 5px 5px 10px yellow;
+}
+h2{
+    font-family: 'Kalam', cursive;
+    color: rgb(42, 44, 117);
+    text-align: left;
+    text-shadow: 5px 5px 10px green;
+}
+h3{
+    color: blue;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    border:solid 2px rgb(228, 19, 12);
+    padding: 5px;
+    font-weight: bold;
+    background: #E0EFDE;
+}
+legend {
+    border:solid 2px violet;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 20px;
+    background: rgb(245, 212, 26);
+    color: blue;
+}
+body{
+    
+    background-color: #DBFE87;
+
+}
+
+.buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+.buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #68848f;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(79, 233, 74, 0.5);
+    transition: all .4s ease-in-out;
+  }
+  
+.buttons a:hover {
+    transform: scale(1.2);
+  }
