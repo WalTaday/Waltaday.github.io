@@ -13,12 +13,16 @@ h2{
 }
 h3{
     color: blue;
-    font-family: 'Teko', sans-serif;
+    font-family: 'Kalam', cursive;
     text-align: center;
     border:solid 2px rgb(228, 19, 12);
     padding: 5px;
     font-weight: bold;
     background: #E0EFDE;
+}
+p{
+    text-align: justify;
+    font-size: 18px;
 }
 legend {
     border:solid 2px violet;
@@ -30,9 +34,14 @@ legend {
 }
 body{
     
-    background-color: #DBFE87;
+    background-image: url(../Recursos/Fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed ;
+    background-size: 100%  100%;
 
 }
+
 
 .buttons {
     min-width: 700px;
@@ -47,13 +56,29 @@ body{
     height: 60px;
     line-height: 60px;
     text-align: center;
-    background: #68848f;
+    background: #f17916;
     color: #f1f1f1;
     border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(79, 233, 74, 0.5);
+    box-shadow: 2px 2px 5px rgba(78, 50, 240, 0.5);
     transition: all .4s ease-in-out;
   }
   
 .buttons a:hover {
     transform: scale(1.2);
   }
+
+div {
+    text-decoration: none;
+    font-size: 35px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #0481f7;
+    color: #e41414;
+    border-radius: 30%;
+    box-shadow: 2px 2px 5px rgba(79, 233, 74, 0.5);
+    
+}
+
+
