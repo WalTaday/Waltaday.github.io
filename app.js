@@ -57,10 +57,10 @@ function efectoHabilidades(){
     if(distancia_skills>=300 && entro==false){
         entro = true;
         const intervalHtml = setInterval(function(){
-            pintarBarra(html, 16, 0, intervalHtml);
+            pintarBarra(html, 14, 0, intervalHtml);
         },100);
         const intervalJavascript = setInterval(function(){
-            pintarBarra(javascript, 11, 1, intervalJavascript);
+            pintarBarra(javascript, 15, 1, intervalJavascript);
         },100);
         const intervalWordpress = setInterval(function(){
             pintarBarra(wordpress, 11, 2, intervalWordpress);
@@ -69,10 +69,10 @@ function efectoHabilidades(){
             pintarBarra(photoshop, 15, 3, intervalPhotoshop);
         },100);
         const intervalPhp = setInterval(function(){
-            pintarBarra(php, 16, 4, intervalPhp);
+            pintarBarra(php, 11, 4, intervalPhp);
         },100);
         const intervalIlustrator = setInterval(function(){
-            pintarBarra(ilustrator, 11, 5, intervalIlustrator);
+            pintarBarra(ilustrator, 12, 5, intervalIlustrator);
         },100);
     }
 }
@@ -83,7 +83,7 @@ function pintarBarra(id_barra, cantidad, indice, interval){
     x = contadores[indice];
     if(x < cantidad){
         let elementos = id_barra.getElementsByClassName("e");
-        elementos[x].style.backgroundColor = "#940253";
+        elementos[x].style.backgroundColor = "#2BC016";
     }else{
         clearInterval(interval)
     }
