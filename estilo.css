@@ -52,7 +52,7 @@ html{
     text-shadow: 0 0 35px #fff;
 }
 .inicio .contenido-seccion header .logo .color{
-    color: #940253;
+    color: #079402;
     font-family: "Yellowtail";
 }
 .inicio .contenido-seccion header .nav-bar{
@@ -136,7 +136,7 @@ html{
     font-size: 30px;
 }
 .sobremi .contenido-seccion .especial{
-    color: #350294;
+    color: #4d0bc9;
     font-weight: bold;
     margin-top: 15px;
 }
@@ -154,11 +154,11 @@ html{
     width: 30%;
 }
 .sobremi .contenido-seccion .fila .col i{
-    color: #02940e;
+    color: #06c216;
     display: inline-block;
     width: 40px;
     height: 40px;
-    border: 2px solid #029422;
+    border: 2px solid #08d635;
     line-height: 40px;
     border-radius: 50%;
 }
@@ -275,7 +275,8 @@ html{
 }
 /* SECCION CONTACTO */
 .contacto{
-    background-color: #202020;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("./img/lllll.jpg");
     padding: 140px 0 100px 0;
     color: #e6e6e6;
     text-align: center;
