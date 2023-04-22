@@ -11,7 +11,7 @@ html{
 
 /* SECCION INICIO */
 .inicio{
-    background:   url("./fondo.jpg");
+    background:   url("./img/fondo.jpg");
     background-size: cover;
     background-position: center center;
     color: #fff;
@@ -170,7 +170,7 @@ html{
 .habilidades{
     padding: 80px 0 100px 0;
     text-align: center;
-    background:  url("./habilidades.jpg");
+    background:  url("./img/habilidades.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -274,7 +274,7 @@ html{
 /* SECCION CONTACTO */
 .contacto{
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
-    url("../Taday.jpg");
+    url("../Waltaday.github.io/img/Taday.jpg");
     padding: 140px 0 100px 0;
     color: #e6e6e6;
     text-align: center;
